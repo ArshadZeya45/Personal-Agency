@@ -1,4 +1,12 @@
+import Hero from "@/features/hero/Hero";
+import ImpactSection from "@/features/impact/ImpactSection";
+
 const page = () => {
-  return <div>page</div>;
+  return (
+    <>
+      <Hero />
+      <ImpactSection />
+    </>
+  );
 };
 export default page;
