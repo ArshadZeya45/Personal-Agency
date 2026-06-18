@@ -13,7 +13,7 @@ const ServiceSection = () => {
           highlightedText="Under One Hub"
           description="10 expert services crafted to grow your business — from idea to launch and beyond."
         />
-        <CardGrid>
+        <CardGrid className="xl:grid-cols-4">
           {services.map((service) => (
             <ServiceCard key={service.title} service={service} />
           ))}

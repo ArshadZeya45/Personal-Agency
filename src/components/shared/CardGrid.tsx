@@ -1,10 +1,11 @@
 interface CardGridProps {
   children: React.ReactNode;
+  className?: string;
 }
 
-const CardGrid = ({ children }: CardGridProps) => {
+const CardGrid = ({ children, className }: CardGridProps) => {
   return (
-    <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+    <div className={`mt-16 grid gap-6 md:grid-cols-2  ${className}`}>
       {children}
     </div>
   );
