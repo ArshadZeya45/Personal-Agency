@@ -1,4 +1,5 @@
 import AboutSection from "@/features/about/AboutSection";
+import FaqSection from "@/features/faq/FaqSection";
 import Hero from "@/features/hero/Hero";
 import ImpactSection from "@/features/impact/ImpactSection";
 import ProcessSection from "@/features/process/ProcessSection";
@@ -16,6 +17,7 @@ const page = () => {
       <ProcessSection />
       <TestimonialSection />
       <AboutSection />
+      <FaqSection />
     </>
   );
 };
