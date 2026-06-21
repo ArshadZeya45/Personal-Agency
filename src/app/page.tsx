@@ -1,3 +1,4 @@
+import AboutSection from "@/features/about/AboutSection";
 import Hero from "@/features/hero/Hero";
 import ImpactSection from "@/features/impact/ImpactSection";
 import ProcessSection from "@/features/process/ProcessSection";
@@ -14,6 +15,7 @@ const page = () => {
       <WhyChooseUsSection />
       <ProcessSection />
       <TestimonialSection />
+      <AboutSection />
     </>
   );
 };
