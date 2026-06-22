@@ -1,4 +1,6 @@
 import AboutSection from "@/features/about/AboutSection";
+import ContactsSection from "@/features/contact/ContactsSection";
+
 import CTASection from "@/features/cta/CTASection";
 import FaqSection from "@/features/faq/FaqSection";
 import Hero from "@/features/hero/Hero";
@@ -20,6 +22,7 @@ const page = () => {
       <AboutSection />
       <FaqSection />
       <CTASection />
+      <ContactsSection />
     </>
   );
 };
