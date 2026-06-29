@@ -1,5 +1,6 @@
 import { services } from "@/data/admin-services";
 import Banner from "@/features/service-detail/hero/Banner";
+import Stats from "@/features/service-detail/stats/Stats";
 
 import { notFound } from "next/navigation";
 
@@ -18,8 +19,9 @@ const Page = async ({ params }: Props) => {
   }
 
   return (
-    <main className="py-10 lg:py-18">
+    <main>
       <Banner hero={service.hero} />
+      <Stats stats={service.stats} />
     </main>
   );
 };

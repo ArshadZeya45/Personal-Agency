@@ -11,7 +11,7 @@ const Banner = ({ hero }: BannerProps) => {
   const Icon = hero.badge.icon;
 
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative py-10 lg:py-18 ">
       <div className="container relative z-10 flex  flex-col items-center justify-center text-center">
         <Badge icon={Icon && <Icon size={18} />}>{hero.badge.text}</Badge>
 
