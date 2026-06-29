@@ -28,51 +28,51 @@ export const desktopMenus: DesktopMenuItem[] = [
           {
             title: "Web Development",
             description: "Custom websites & apps",
-            href: "/service-web-development",
+            href: "/services/web-development",
             icon: Code,
           },
 
           {
             title: "Mobile Apps",
             description: "iOS & Android",
-            href: "/service-app-development",
+            href: "/services/app-development",
             icon: Smartphone,
           },
 
           {
             title: "Custom Software",
             description: "Business solutions",
-            href: "/service-software-development",
+            href: "/services/software-development",
             icon: Cog,
           },
 
-          {
-            title: "SQA & Testing",
-            description: "Manual & automated testing",
-            href: "/service-sqa",
-            icon: Bug,
-          },
+          // {
+          //   title: "SQA & Testing",
+          //   description: "Manual & automated testing",
+          //   href: "/service-sqa",
+          //   icon: Bug,
+          // },
 
           {
             title: "LMS Development",
             description: "Custom e-learning platforms",
-            href: "/service-lms",
+            href: "/services/lms",
             icon: GraduationCap,
           },
 
-          {
-            title: "AI & ML",
-            description: "Intelligent automation",
-            href: "/service-ai-ml",
-            icon: Brain,
-          },
+          // {
+          //   title: "AI & ML",
+          //   description: "Intelligent automation",
+          //   href: "/service-ai-ml",
+          //   icon: Brain,
+          // },
 
-          {
-            title: "Cloud & DevOps",
-            description: "Scalable infrastructure",
-            href: "/service-cloud-devops",
-            icon: Cloud,
-          },
+          // {
+          //   title: "Cloud & DevOps",
+          //   description: "Scalable infrastructure",
+          //   href: "/service-cloud-devops",
+          //   icon: Cloud,
+          // },
         ],
       },
 
@@ -83,30 +83,30 @@ export const desktopMenus: DesktopMenuItem[] = [
           {
             title: "Web Design",
             description: "Pixel-perfect interfaces",
-            href: "/service-web-design",
+            href: "/services/web-design",
             icon: Monitor,
           },
 
-          {
-            title: "Graphic Designing",
-            description: "Brand identity & creatives",
-            href: "/service-graphic-design",
-            icon: PenTool,
-          },
+          // {
+          //   title: "Graphic Designing",
+          //   description: "Brand identity & creatives",
+          //   href: "/service-graphic-design",
+          //   icon: PenTool,
+          // },
 
           {
             title: "Video Editing",
             description: "Motion graphics & reels",
-            href: "/service-video-editing",
+            href: "/services/video-editing",
             icon: Video,
           },
 
-          {
-            title: "UI/UX Design",
-            description: "User-centered design",
-            href: "/service-ui-ux",
-            icon: Palette,
-          },
+          // {
+          //   title: "UI/UX Design",
+          //   description: "User-centered design",
+          //   href: "/service-ui-ux",
+          //   icon: Palette,
+          // },
         ],
       },
     ],
@@ -135,12 +135,12 @@ export const desktopMenus: DesktopMenuItem[] = [
           icon: ShoppingCart,
         },
 
-        {
-          title: "Content Marketing",
-          description: "Strategy & writing",
-          href: "/service-content-marketing",
-          icon: PenTool,
-        },
+        // {
+        //   title: "Content Marketing",
+        //   description: "Strategy & writing",
+        //   href: "/service-content-marketing",
+        //   icon: PenTool,
+        // },
       ],
     },
 
@@ -148,19 +148,19 @@ export const desktopMenus: DesktopMenuItem[] = [
       label: "Paid & Social",
 
       items: [
-        {
-          title: "Social Media",
-          description: "Build brand & engage",
-          href: "/service-social-media",
-          icon: Hash,
-        },
+        // {
+        //   title: "Social Media",
+        //   description: "Build brand & engage",
+        //   href: "/service-social-media",
+        //   icon: Hash,
+        // },
 
-        {
-          title: "PPC Advertising",
-          description: "Google & Meta ads",
-          href: "/service-ppc",
-          icon: Target,
-        },
+        // {
+        //   title: "PPC Advertising",
+        //   description: "Google & Meta ads",
+        //   href: "/service-ppc",
+        //   icon: Target,
+        // },
 
         {
           title: "Email Marketing",
@@ -172,81 +172,81 @@ export const desktopMenus: DesktopMenuItem[] = [
     },
   ],
 },
-  {
-  title: "Hire Experts",
-  type: "mega",
-  icon: ChevronDown,
+//   {
+//   title: "Hire Experts",
+//   type: "mega",
+//   icon: ChevronDown,
 
-  sections: [
-    {
-      label: "Our Talent Pool",
+//   sections: [
+//     {
+//       label: "Our Talent Pool",
 
-      items: [
-        {
-          title: "Hire Web Developers",
-          description: "Full-stack & frontend",
-          href: "/hire-web-developers",
-          icon: Laptop,
-        },
+//       items: [
+//         {
+//           title: "Hire Web Developers",
+//           description: "Full-stack & frontend",
+//           href: "/hire-web-developers",
+//           icon: Laptop,
+//         },
 
-        {
-          title: "Hire App Developers",
-          description: "iOS & Android",
-          href: "/hire-app-developers",
-          icon: Smartphone,
-        },
+//         {
+//           title: "Hire App Developers",
+//           description: "iOS & Android",
+//           href: "/hire-app-developers",
+//           icon: Smartphone,
+//         },
 
-        {
-          title: "Hire UI/UX Designers",
-          description: "UI/UX & Graphics",
-          href: "/hire-ui-ux-designers",
-          icon: PencilRuler,
-        },
+//         {
+//           title: "Hire UI/UX Designers",
+//           description: "UI/UX & Graphics",
+//           href: "/hire-ui-ux-designers",
+//           icon: PencilRuler,
+//         },
 
-        {
-          title: "Hire Graphic Designers",
-          description: "Branding & Visuals",
-          href: "/hire-graphic-designers",
-          icon: Paintbrush,
-        },
-      ],
-    },
+//         {
+//           title: "Hire Graphic Designers",
+//           description: "Branding & Visuals",
+//           href: "/hire-graphic-designers",
+//           icon: Paintbrush,
+//         },
+//       ],
+//     },
 
-    {
-      label: "Hire Experts",
+//     {
+//       label: "Hire Experts",
 
-      items: [
-        {
-          title: "Hire SEO Experts",
-          description: "Ranking specialists",
-          href: "/hire-seo-experts",
-          icon: ChartNoAxesCombined,
-        },
+//       items: [
+//         {
+//           title: "Hire SEO Experts",
+//           description: "Ranking specialists",
+//           href: "/hire-seo-experts",
+//           icon: ChartNoAxesCombined,
+//         },
 
-        {
-          title: "Hire QA Engineers",
-          description: "Manual & Automation",
-          href: "/hire-qa-engineers",
-          icon: Bug,
-        },
+//         {
+//           title: "Hire QA Engineers",
+//           description: "Manual & Automation",
+//           href: "/hire-qa-engineers",
+//           icon: Bug,
+//         },
 
-        {
-          title: "Hire Marketers",
-          description: "PPC & Growth experts",
-          href: "/hire-digital-marketers",
-          icon: Megaphone,
-        },
+//         {
+//           title: "Hire Marketers",
+//           description: "PPC & Growth experts",
+//           href: "/hire-digital-marketers",
+//           icon: Megaphone,
+//         },
 
-        {
-          title: "Hire Writers",
-          description: "SEO & Copywriting",
-          href: "/hire-content-writers",
-          icon: PenTool,
-        },
-      ],
-    },
-  ],
-},
+//         {
+//           title: "Hire Writers",
+//           description: "SEO & Copywriting",
+//           href: "/hire-content-writers",
+//           icon: PenTool,
+//         },
+//       ],
+//     },
+//   ],
+// },
   
  {
   title: "Success Stories",
@@ -278,10 +278,10 @@ export const desktopMenus: DesktopMenuItem[] = [
           title: "E-Commerce",
           href: "/ecommerce-success-stories",
         },
-        {
-          title: "UI/UX Design",
-          href: "/ui-ux-success-stories",
-        },
+        // {
+        //   title: "UI/UX Design",
+        //   href: "/ui-ux-success-stories",
+        // },
         {
           title: "SEO Campaigns",
           href: "/seo-campaigns-success-stories",
@@ -294,8 +294,8 @@ export const desktopMenus: DesktopMenuItem[] = [
     title: "About Us",
     href: "/about",
   },
-  {
-    title: "Career",
-    href: "/career",
-  },
+  // {
+  //   title: "Career",
+  //   href: "/career",
+  // },
 ];

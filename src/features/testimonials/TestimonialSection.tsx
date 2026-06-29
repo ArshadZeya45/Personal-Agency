@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const TestimonialSection = () => {
   return (
-    <section className="mx-auto max-w-7xl px-4 lg:px-8 py-10 lg:py-18 relative">
+    <section className="py-10 lg:py-18 relative">
       <SectionHeader
         badge="Success Stories"
         title="What Our Clients Say"

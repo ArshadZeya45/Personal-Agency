@@ -4,11 +4,11 @@ import HeroActions from "./HeroActions";
 const HeroContent = () => {
   return (
     <>
-      <h1 className="mt-8 max-w-3xl font-poppins font-bold text-5xl leading-none lg:text-6xl">
+      <h1 className="mt-8 max-w-3xl font-poppins font-bold text-4xl leading-10 lg:leading-none lg:text-6xl ">
         We Build <span className="text-cyan">Digital Solutions</span>
         That Drive <span className="text-blue">Growth</span>
       </h1>
-      <p className="mt-8 max-w-2xl text-lg text-muted">
+      <p className="mt-8 max-w-2xl  lg:text-lg text-base text-muted leading-7">
         {heroData.description}
       </p>
       <HeroActions />

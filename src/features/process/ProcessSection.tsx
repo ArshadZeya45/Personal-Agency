@@ -6,7 +6,7 @@ import { webPipeline, webProcessSteps } from "@/data/process";
 
 const ProcessSection = () => {
   return (
-    <section className="mx-auto max-w-7xl px-4 lg:px-8 py-10 lg:py-18">
+    <section className="py-10 lg:py-18">
       <SectionHeader
         badge="Our Methodology"
         title="How We Turn Ideas Into"

@@ -4,7 +4,7 @@ import { faqData } from "@/data/faq";
 
 const FaqSection = () => {
   return (
-    <section className="mx-auto max-w-7xl px-4 py-10 lg:px-8 lg:py-18">
+    <section className="py-10 lg:py-18">
       <SectionHeader
         badge="Questions?"
         title="Frequently Asked"

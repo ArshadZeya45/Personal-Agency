@@ -3,7 +3,7 @@ import CTAButton from "./CTAButton";
 
 const CTASection = () => {
   return (
-    <section className="mx-auto max-w-7xl px-4 lg:px-8 py-10 lg:py-18">
+    <section className="py-10 lg:py-18">
       <SectionHeader
         badge="Ready to Start?"
         title="Let's Build Something"

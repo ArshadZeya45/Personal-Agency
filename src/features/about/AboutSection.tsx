@@ -5,7 +5,7 @@ import AboutFeatureGrid from "./AboutFeatureGrid";
 
 const AboutSection = () => {
   return (
-    <section className="mx-auto max-w-7xl px-4 lg:px-8 py-10 lg:py-18">
+    <section className="py-10 lg:py-18">
       <SectionHeader badge="About us" title="Who We" highlightedText="are" />
       <div className="grid lg:grid-cols-2 gap-16 mt-14">
         <AboutContent

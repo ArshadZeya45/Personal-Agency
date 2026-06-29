@@ -3,7 +3,7 @@ import ImpactStatCard from "./ImpactStatCard";
 
 const ImpactStatsGrid = () => {
   return (
-    <div className="mt-16 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+    <div className="lg:mt-16 mt-14 grid  gap-6 sm:grid-cols-2 xl:grid-cols-4">
       {impactStats.map((stat) => (
         <ImpactStatCard key={stat.label} stat={stat} />
       ))}

@@ -8,7 +8,7 @@ const SectionHeader = ({
   description,
 }: SectionHeaderProps) => {
   return (
-    <div className="mx-auto max-w-4xl text-center">
+    <div className="mx-auto  text-center">
       {badge && (
         <div className="flex justify-center">
           <SectionBadge text={badge} />
@@ -22,7 +22,7 @@ const SectionHeader = ({
           font-poppins
           font-bold
 
-          text-4xl
+          text-3xl
           leading-none
 
           lg:text-5xl
@@ -49,11 +49,11 @@ const SectionHeader = ({
         <p
           className="
             mx-auto
-            mt-8
-
+            lg:mt-8
+            mt-4
             max-w-3xl
-
-            text-lg
+            text-sm
+            lg:text-lg
             leading-relaxed
 
             text-muted
