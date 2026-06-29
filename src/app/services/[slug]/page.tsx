@@ -1,5 +1,6 @@
 import { services } from "@/data/admin-services";
 import Banner from "@/features/service-detail/hero/Banner";
+import Overview from "@/features/service-detail/overview/Overview";
 import Stats from "@/features/service-detail/stats/Stats";
 
 import { notFound } from "next/navigation";
@@ -22,6 +23,7 @@ const Page = async ({ params }: Props) => {
     <main>
       <Banner hero={service.hero} />
       <Stats stats={service.stats} />
+      <Overview overview={service.overview} />
     </main>
   );
 };

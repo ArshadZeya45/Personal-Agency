@@ -1,5 +1,5 @@
 import { ServiceData } from "@/types/admin-services";
-import { TabletSmartphone } from "lucide-react";
+import { TabletSmartphone, Wifi, Zap } from "lucide-react";
 
 export const mobileAppDevelopmentData: ServiceData = {
   slug: "app-development",
@@ -67,6 +67,7 @@ export const mobileAppDevelopmentData: ServiceData = {
           "We optimize rendering, memory usage and animations to ensure buttery-smooth mobile experiences.",
 
         color: "blue",
+        icon : Zap
       },
 
       {
@@ -76,6 +77,7 @@ export const mobileAppDevelopmentData: ServiceData = {
           "Build apps that continue working seamlessly even when users temporarily lose internet connectivity.",
 
         color: "green",
+        icon : Wifi
       },
     ],
   },

@@ -1,5 +1,5 @@
 import { ServiceData } from "@/types/admin-services";
-import {CodeXml } from "lucide-react";
+import {CodeXml, Smartphone, SquareCode } from "lucide-react";
 
 export const webDevelopmentData:ServiceData = {
   slug: "web-development",
@@ -38,11 +38,11 @@ export const webDevelopmentData:ServiceData = {
 
   overview: {
     badge: "OVERVIEW",
-    title: "Beyond Just a Website",
+    title: "Beyond Just a ",
     highlightedText: "Website",
 
     description:
-      "In today's digital landscape, a slow or clunky website directly results in lost revenue. We build custom web solutions that act as the primary growth engine for your business.",
+      "In today's digital landscape, a slow or clunky website directly results in lost revenue. We build custom web solutions that act as the primary growth engine for your business. Whether you need a corporate web presence or a highly complex SaaS application, our full-stack engineers have you covered.",
 
     points: [
       "Enterprise-Grade Security Architecture",
@@ -56,6 +56,7 @@ export const webDevelopmentData:ServiceData = {
         description:
           "We optimize server response times, compress assets, and utilize modern caching strategies.",
         color: "blue",
+        icon : SquareCode
       },
 
       {
@@ -63,6 +64,7 @@ export const webDevelopmentData:ServiceData = {
         description:
           "Your website performs flawlessly on every screen size.",
         color: "green",
+        icon : Smartphone
       },
     ],
   },

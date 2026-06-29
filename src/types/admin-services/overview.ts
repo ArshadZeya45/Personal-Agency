@@ -1,7 +1,10 @@
+import { LucideIcon } from "lucide-react";
+
 export interface OverviewCard {
   title: string;
   description: string;
   color: string;
+  icon : LucideIcon
 }
 
 export interface Overview {

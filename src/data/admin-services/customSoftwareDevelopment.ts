@@ -1,5 +1,5 @@
 import { ServiceData } from "@/types/admin-services";
-import { FolderCode } from "lucide-react";
+import { Blocks, FolderCode, UserKey } from "lucide-react";
 
 export const customSoftwareDevelopmentData: ServiceData = {
   slug: "software-development",
@@ -63,6 +63,7 @@ export const customSoftwareDevelopmentData: ServiceData = {
           "Role-based access control, encryption, audit logs and compliance-ready architectures built for enterprise environments.",
 
         color: "blue",
+        icon : UserKey
       },
 
       {
@@ -72,6 +73,7 @@ export const customSoftwareDevelopmentData: ServiceData = {
           "Connect your software with ERPs, CRMs, payment gateways, accounting systems and third-party APIs.",
 
         color: "green",
+        icon : Blocks
       },
     ],
   },

@@ -1,5 +1,5 @@
 import { ServiceData } from "@/types/admin-services";
-import { Video } from "lucide-react";
+import { AudioLines, Eye, Video } from "lucide-react";
 
 export const videoEditingData: ServiceData = {
   slug: "video-editing",
@@ -57,6 +57,7 @@ export const videoEditingData: ServiceData = {
         description:
           "Pattern interrupts, dynamic zooms, subtitles, and visual storytelling designed to maximize watch time.",
         color: "blue",
+        icon : Eye
       },
 
       {
@@ -64,6 +65,7 @@ export const videoEditingData: ServiceData = {
         description:
           "Professional sound design, royalty-free music, dialogue cleanup, and cinematic audio enhancement.",
         color: "purple",
+        icon : AudioLines
       },
     ],
   },

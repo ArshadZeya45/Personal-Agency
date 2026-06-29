@@ -1,5 +1,5 @@
 import { ServiceData } from "@/types/admin-services";
-import { GraduationCap } from "lucide-react";
+import { Gamepad2, GlobeLock, GraduationCap } from "lucide-react";
 
 export const lmsDevelopmentData: ServiceData = {
   slug: "lms",
@@ -65,6 +65,7 @@ export const lmsDevelopmentData: ServiceData = {
           "Bank-level encryption, RBAC, DRM protection and secure cloud infrastructure keep your educational content and learner data protected.",
 
         color: "blue",
+        icon : GlobeLock
       },
 
       {
@@ -74,6 +75,7 @@ export const lmsDevelopmentData: ServiceData = {
           "Gamification, quizzes, certificates, discussion forums and interactive learning experiences improve completion rates.",
 
         color: "green",
+        icon : Gamepad2
       },
     ],
   },

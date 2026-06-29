@@ -1,5 +1,5 @@
 import { ServiceData } from "@/types/admin-services";
-import { Laptop } from "lucide-react";
+import { BadgeCheck, Laptop, Smartphone } from "lucide-react";
 
 export const webDesignData: ServiceData = {
   slug: "web-design",
@@ -57,12 +57,14 @@ export const webDesignData: ServiceData = {
         description:
           "Every layout is optimized for desktop, tablet, and mobile devices to ensure a seamless experience.",
         color: "blue",
+        icon : Smartphone
       },
       {
         title: "Conversion-Focused",
         description:
           "Strategic layouts, typography, and call-to-actions designed to increase user engagement.",
         color: "green",
+        icon : BadgeCheck
       },
     ],
   },
