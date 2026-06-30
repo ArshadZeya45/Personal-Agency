@@ -1,3 +1,10 @@
+import { IconType } from "react-icons";
+
+export interface TechnologyItem {
+  title: string;
+  icon: IconType;
+}
+
 export interface Technologies {
   badge: string;
 
@@ -5,5 +12,5 @@ export interface Technologies {
 
   highlightedText: string;
 
-  items: string[];
+  items: TechnologyItem[];
 }

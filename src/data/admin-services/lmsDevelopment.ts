@@ -2,6 +2,16 @@ import { ServiceData } from "@/types/admin-services";
 import { Gamepad2, GlobeLock, GraduationCap } from "lucide-react";
 import { FaChartPie, FaMedal, FaSchool, FaShoppingCart, FaVideo } from "react-icons/fa";
 import { HiOutlineOfficeBuilding } from "react-icons/hi";
+import {
+  FaPython,
+  FaNodeJs,
+  FaReact,
+  FaDatabase,
+  FaAws,
+  FaFileCode,
+} from "react-icons/fa";
+
+import { SiStripe } from "react-icons/si";
 
 export const lmsDevelopmentData: ServiceData = {
   slug: "lms",
@@ -162,16 +172,48 @@ export const lmsDevelopmentData: ServiceData = {
 
     highlightedText: "Stack",
 
-    items: [
-      "Django / Python",
-      "Node.js",
-      "React.js",
-      "WebRTC",
-      "PostgreSQL",
-      "AWS S3 (Video)",
-      "SCORM / xAPI",
-      "Stripe API",
-    ],
+    
+  items: [
+    {
+      title: "Django / Python",
+      icon: FaPython,
+    },
+
+    {
+      title: "Node.js",
+      icon: FaNodeJs,
+    },
+
+    {
+      title: "React.js",
+      icon: FaReact,
+    },
+
+    {
+      title: "WebRTC",
+      icon: FaVideo,
+    },
+
+    {
+      title: "PostgreSQL",
+      icon: FaDatabase,
+    },
+
+    {
+      title: "AWS S3 (Video)",
+      icon: FaAws,
+    },
+
+    {
+      title: "SCORM / xAPI",
+      icon: FaFileCode,
+    },
+
+    {
+      title: "Stripe API",
+      icon: SiStripe,
+    },
+  ],
   },
 
   process: {

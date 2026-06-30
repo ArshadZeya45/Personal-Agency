@@ -2,6 +2,17 @@ import { ServiceData } from "@/types/admin-services";
 import { BadgeCheck, Laptop, Smartphone } from "lucide-react";
 import { FaBuilding, FaMagic, FaRocket, FaSearch, FaShoppingBag } from "react-icons/fa";
 import { SiCodeblocks } from "react-icons/si";
+import {
+  SiFigma,
+  SiFramer,
+  SiWebflow,
+  SiSketch,
+  SiAboutdotme,
+  SiHtml5,
+  SiJavascript,
+} from "react-icons/si";
+
+import { FaUniversalAccess } from "react-icons/fa";
 
 export const webDesignData: ServiceData = {
   slug: "web-design",
@@ -131,15 +142,46 @@ export const webDesignData: ServiceData = {
     highlightedText: "Stack",
 
     items: [
-      "Figma",
-      "Framer",
-      "Adobe XD",
-      "Sketch",
-      "HTML5 / CSS3",
-      "JavaScript",
-      "Webflow",
-      "WCAG Tools",
-    ],
+    {
+      title: "Figma",
+      icon: SiFigma,
+    },
+
+    {
+      title: "Framer",
+      icon: SiFramer,
+    },
+
+    {
+      title: "Webflow",
+      icon: SiWebflow,
+    },
+
+    {
+      title: "Adobe XD",
+      icon: SiAboutdotme,
+    },
+
+    {
+      title: "Sketch",
+      icon: SiSketch,
+    },
+
+    {
+      title: "HTML5 / CSS3",
+      icon: SiHtml5,
+    },
+
+    {
+      title: "JavaScript",
+      icon: SiJavascript,
+    },
+
+    {
+      title: "WCAG Tools",
+      icon: FaUniversalAccess,
+    },
+  ],
   },
 
   process: {

@@ -3,6 +3,17 @@ import { TabletSmartphone, Wifi, Zap } from "lucide-react";
 import { CgDatabase } from "react-icons/cg";
 import { FaAndroid, FaApple, FaLayerGroup, FaRocket } from "react-icons/fa";
 import { FaMobileScreen } from "react-icons/fa6";
+import {
+  FaReact,
+  FaGoogle,
+  FaAws,
+} from "react-icons/fa";
+
+import {
+  SiFlutter,
+  SiSqlite,
+  SiFastlane,
+} from "react-icons/si";
 
 export const mobileAppDevelopmentData: ServiceData = {
   slug: "app-development",
@@ -165,16 +176,47 @@ export const mobileAppDevelopmentData: ServiceData = {
 
     highlightedText: "Technologies",
 
-    items: [
-      "Swift / iOS",
-      "Kotlin / Android",
-      "React Native",
-      "Flutter / Dart",
-      "Firebase",
-      "CoreData / SQLite",
-      "AWS Mobile",
-      "Fastlane CI/CD",
-    ],
+     items: [
+    {
+      title: "Swift / iOS",
+      icon: FaApple,
+    },
+
+    {
+      title: "Kotlin / Android",
+      icon: FaAndroid,
+    },
+
+    {
+      title: "React Native",
+      icon: FaReact,
+    },
+
+    {
+      title: "Flutter / Dart",
+      icon: SiFlutter,
+    },
+
+    {
+      title: "Firebase",
+      icon: FaGoogle,
+    },
+
+    {
+      title: "CoreData / SQLite",
+      icon: SiSqlite,
+    },
+
+    {
+      title: "AWS Mobile",
+      icon: FaAws,
+    },
+
+    {
+      title: "Fastlane CI/CD",
+      icon: SiFastlane,
+    },
+  ],
   },
 
   process: {

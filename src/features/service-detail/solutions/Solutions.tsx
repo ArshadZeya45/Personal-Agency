@@ -5,7 +5,7 @@ type Props = {
 };
 const Solutions = ({ solutions }: Props) => {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="py-10 lg:py-18">
       <SectionHeader
         badge={solutions.badge}
         title={solutions.title}

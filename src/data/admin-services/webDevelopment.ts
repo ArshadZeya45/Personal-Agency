@@ -3,6 +3,8 @@ import {CodeXml, Smartphone, SquareCode } from "lucide-react";
 import { CgDatabase } from "react-icons/cg";
 import { FaLaptopCode, FaReact, FaShoppingCart, FaWordpress } from "react-icons/fa";
 import { FiTool } from "react-icons/fi";
+import { FaAngular, FaVuejs, FaNodeJs, FaPython, FaAws } from "react-icons/fa";
+import { SiLaravel, SiMysql } from "react-icons/si";
 
 export const webDevelopmentData:ServiceData = {
   slug: "web-development",
@@ -136,16 +138,40 @@ export const webDevelopmentData:ServiceData = {
     title: "The Technologies",
     highlightedText: "We Master",
 
-    items: [
-      "React.js",
-      "Angular",
-      "Vue.js",
-      "Node.js",
-      "Python",
-      "Laravel",
-      "SQL/NoSQL",
-      "AWS Cloud",
-    ],
+     items: [
+    {
+      title: "React.js",
+      icon: FaReact,
+    },
+    {
+      title: "Angular",
+      icon: FaAngular,
+    },
+    {
+      title: "Vue.js",
+      icon: FaVuejs,
+    },
+    {
+      title: "Node.js",
+      icon: FaNodeJs,
+    },
+    {
+      title: "Python",
+      icon: FaPython,
+    },
+    {
+      title: "Laravel",
+      icon: SiLaravel,
+    },
+    {
+      title: "SQL/NoSQL",
+      icon: SiMysql,
+    },
+    {
+      title: "AWS Cloud",
+      icon: FaAws,
+    },
+  ],
   },
 
   process: {

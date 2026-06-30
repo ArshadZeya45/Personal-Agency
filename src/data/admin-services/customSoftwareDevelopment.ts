@@ -4,6 +4,17 @@ import { FaBuilding, FaCloudUploadAlt, FaPlug, FaRobot } from "react-icons/fa";
 import { IoPeople } from "react-icons/io5";
 import { RiLoader3Fill } from "react-icons/ri";
 
+import {
+  FaPython,
+  FaNodeJs,
+  FaJava,
+  FaMicrosoft,
+  FaDatabase,
+  FaDocker,
+  FaAws,
+  FaShieldAlt,
+} from "react-icons/fa";
+
 export const customSoftwareDevelopmentData: ServiceData = {
   slug: "software-development",
 
@@ -162,15 +173,46 @@ export const customSoftwareDevelopmentData: ServiceData = {
     highlightedText: "Tech Stack",
 
     items: [
-      "Python / Django",
-      "Node.js / Express",
-      "Java / Spring",
-      "C# / .NET Core",
-      "PostgreSQL",
-      "Docker / Kubernetes",
-      "AWS Infrastructure",
-      "OAuth / JWT",
-    ],
+    {
+      title: "Python / Django",
+      icon: FaPython,
+    },
+
+    {
+      title: "Node.js / Express",
+      icon: FaNodeJs,
+    },
+
+    {
+      title: "Java / Spring",
+      icon: FaJava,
+    },
+
+    {
+      title: "C# / .NET Core",
+      icon: FaMicrosoft,
+    },
+
+    {
+      title: "PostgreSQL",
+      icon: FaDatabase,
+    },
+
+    {
+      title: "Docker / K8s",
+      icon: FaDocker,
+    },
+
+    {
+      title: "AWS Infrastructure",
+      icon: FaAws,
+    },
+
+    {
+      title: "OAuth / JWT",
+      icon: FaShieldAlt,
+    },
+  ],
   },
 
   process: {

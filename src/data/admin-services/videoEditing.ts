@@ -1,9 +1,19 @@
 import { ServiceData } from "@/types/admin-services";
 import { AudioLines, Eye, Video } from "lucide-react";
-import { FaBuilding, FaMagic, FaYoutube } from "react-icons/fa";
+import { FaBuilding, FaMagic, FaVideo, FaVideoSlash, FaYoutube } from "react-icons/fa";
 import { HiSpeakerphone } from "react-icons/hi";
 import { IoIosColorPalette } from "react-icons/io";
 import { MdOutlineSmartphone } from "react-icons/md";
+import {
+  
+  SiDavinciresolve,
+  
+  SiApple,
+  SiCinema4D,
+ 
+} from "react-icons/si";
+import { TbBrandAdobeAfterEffect, TbBrandAdobePhotoshop, TbBuildingPavilion } from "react-icons/tb";
+
 
 export const videoEditingData: ServiceData = {
   slug: "video-editing",
@@ -139,15 +149,46 @@ export const videoEditingData: ServiceData = {
     highlightedText: "Stack",
 
     items: [
-      "Adobe Premiere Pro",
-      "After Effects",
-      "DaVinci Resolve",
-      "Adobe Audition",
-      "Final Cut Pro",
-      "Cinema 4D",
-      "CapCut Pro",
-      "Adobe Illustrator",
-    ],
+    {
+      title: "Premiere Pro",
+      icon: TbBrandAdobePhotoshop,
+    },
+
+    {
+      title: "After Effects",
+      icon: TbBrandAdobeAfterEffect,
+    },
+
+    {
+      title: "DaVinci Resolve",
+      icon: TbBuildingPavilion,
+    },
+
+    {
+      title: "Adobe Audition",
+      icon: TbBrandAdobePhotoshop,
+    },
+
+    {
+      title: "Final Cut Pro",
+      icon: SiApple,
+    },
+
+    {
+      title: "Cinema 4D",
+      icon: SiCinema4D,
+    },
+
+    {
+      title: "CapCut Pro",
+      icon: FaVideo,
+    },
+
+    {
+      title: "Illustrator",
+      icon: FaVideoSlash,
+    },
+  ],
   },
 
   process: {
