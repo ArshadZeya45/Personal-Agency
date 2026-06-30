@@ -1,5 +1,8 @@
 import { ServiceData } from "@/types/admin-services";
 import { TabletSmartphone, Wifi, Zap } from "lucide-react";
+import { CgDatabase } from "react-icons/cg";
+import { FaAndroid, FaApple, FaLayerGroup, FaRocket } from "react-icons/fa";
+import { FaMobileScreen } from "react-icons/fa6";
 
 export const mobileAppDevelopmentData: ServiceData = {
   slug: "app-development",
@@ -100,6 +103,7 @@ export const mobileAppDevelopmentData: ServiceData = {
           "Swift-powered iPhone & iPad applications optimized for the Apple ecosystem.",
 
         color: "cyan",
+         icon : FaApple
       },
 
       {
@@ -109,6 +113,7 @@ export const mobileAppDevelopmentData: ServiceData = {
           "Modern Kotlin applications engineered for performance and reliability.",
 
         color: "green",
+        icon : FaAndroid
       },
 
       {
@@ -118,6 +123,7 @@ export const mobileAppDevelopmentData: ServiceData = {
           "React Native & Flutter applications sharing one codebase across platforms.",
 
         color: "blue",
+        icon : FaLayerGroup
       },
 
       {
@@ -127,6 +133,7 @@ export const mobileAppDevelopmentData: ServiceData = {
           "Beautiful mobile interfaces focused on usability and engagement.",
 
         color: "purple",
+        icon : FaMobileScreen
       },
 
       {
@@ -136,6 +143,7 @@ export const mobileAppDevelopmentData: ServiceData = {
           "Secure APIs, authentication, notifications and cloud synchronization.",
 
         color: "orange",
+        icon : CgDatabase
       },
 
       {
@@ -145,6 +153,7 @@ export const mobileAppDevelopmentData: ServiceData = {
           "Continuous improvements, monitoring and feature expansion after launch.",
 
         color: "yellow",
+        icon : FaRocket
       },
     ],
   },

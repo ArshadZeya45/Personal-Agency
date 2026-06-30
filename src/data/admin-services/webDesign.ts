@@ -1,5 +1,7 @@
 import { ServiceData } from "@/types/admin-services";
 import { BadgeCheck, Laptop, Smartphone } from "lucide-react";
+import { FaBuilding, FaMagic, FaRocket, FaSearch, FaShoppingBag } from "react-icons/fa";
+import { SiCodeblocks } from "react-icons/si";
 
 export const webDesignData: ServiceData = {
   slug: "web-design",
@@ -83,36 +85,42 @@ export const webDesignData: ServiceData = {
         description:
           "Professional websites that establish credibility and trust.",
         color: "cyan",
+        icon : FaBuilding
       },
       {
         title: "Landing Pages",
         description:
           "High-converting landing pages optimized for marketing campaigns.",
         color: "blue",
+        icon : FaRocket
       },
       {
         title: "E-Commerce Interfaces",
         description:
           "Beautiful shopping experiences that increase customer confidence.",
         color: "orange",
+        icon : FaShoppingBag
       },
       {
         title: "SaaS Dashboard UI",
         description:
           "Modern dashboards with intuitive workflows and data visualization.",
         color: "purple",
+        icon : SiCodeblocks
       },
       {
         title: "Interactive Experiences",
         description:
           "Creative animations and engaging user interactions.",
         color: "green",
+        icon : FaMagic
       },
       {
         title: "Website Redesign",
         description:
           "Refresh outdated websites with modern UI and improved usability.",
         color: "yellow",
+        icon : FaSearch
       },
     ],
   },

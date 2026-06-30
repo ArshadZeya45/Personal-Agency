@@ -1,5 +1,9 @@
 import { ServiceData } from "@/types/admin-services";
 import { AudioLines, Eye, Video } from "lucide-react";
+import { FaBuilding, FaMagic, FaYoutube } from "react-icons/fa";
+import { HiSpeakerphone } from "react-icons/hi";
+import { IoIosColorPalette } from "react-icons/io";
+import { MdOutlineSmartphone } from "react-icons/md";
 
 export const videoEditingData: ServiceData = {
   slug: "video-editing",
@@ -84,6 +88,7 @@ export const videoEditingData: ServiceData = {
         description:
           "Reels, TikTok, Shorts, and viral social media videos optimized for engagement.",
         color: "blue",
+        icon : MdOutlineSmartphone
       },
 
       {
@@ -91,6 +96,7 @@ export const videoEditingData: ServiceData = {
         description:
           "Long-form YouTube videos with B-roll, transitions, subtitles, and storytelling.",
         color: "orange",
+        icon : FaYoutube
       },
 
       {
@@ -98,6 +104,7 @@ export const videoEditingData: ServiceData = {
         description:
           "Custom intros, logo animations, explainer graphics, and animated typography.",
         color: "purple",
+        icon : FaMagic
       },
 
       {
@@ -105,6 +112,7 @@ export const videoEditingData: ServiceData = {
         description:
           "Professional company profiles, interviews, presentations, and promotional videos.",
         color: "green",
+        icon : FaBuilding
       },
 
       {
@@ -112,6 +120,7 @@ export const videoEditingData: ServiceData = {
         description:
           "Cinematic color correction, visual effects, compositing, and premium finishing.",
         color: "cyan",
+        icon : IoIosColorPalette
       },
 
       {
@@ -119,6 +128,7 @@ export const videoEditingData: ServiceData = {
         description:
           "Facebook, Instagram, and Google Ads optimized to maximize conversions.",
         color: "yellow",
+        icon : HiSpeakerphone
       },
     ],
   },

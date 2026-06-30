@@ -1,5 +1,8 @@
 import { ServiceData } from "@/types/admin-services";
 import {CodeXml, Smartphone, SquareCode } from "lucide-react";
+import { CgDatabase } from "react-icons/cg";
+import { FaLaptopCode, FaReact, FaShoppingCart, FaWordpress } from "react-icons/fa";
+import { FiTool } from "react-icons/fi";
 
 export const webDevelopmentData:ServiceData = {
   slug: "web-development",
@@ -71,7 +74,7 @@ export const webDevelopmentData:ServiceData = {
 
   solutions: {
     badge: "SPECIALIZED SOLUTIONS",
-    title: "What We Build",
+    title: "What We",
     highlightedText: "Build",
 
     description:
@@ -83,6 +86,7 @@ export const webDevelopmentData:ServiceData = {
         description:
           "Interactive React, Next.js and Vue applications.",
         color: "cyan",
+        icon : FaReact
       },
 
       {
@@ -90,6 +94,7 @@ export const webDevelopmentData:ServiceData = {
         description:
           "Node.js, Express, APIs and scalable architectures.",
         color: "blue",
+        icon: CgDatabase
       },
 
       {
@@ -97,6 +102,7 @@ export const webDevelopmentData:ServiceData = {
         description:
           "End-to-end SaaS and enterprise applications.",
         color: "purple",
+        icon : FaLaptopCode
       },
 
       {
@@ -104,6 +110,7 @@ export const webDevelopmentData:ServiceData = {
         description:
           "WordPress, Headless CMS and custom admin panels.",
         color: "green",
+        icon : FaWordpress
       },
 
       {
@@ -111,6 +118,7 @@ export const webDevelopmentData:ServiceData = {
         description:
           "Shopify, WooCommerce and custom stores.",
         color: "orange",
+        icon : FaShoppingCart
       },
 
       {
@@ -118,6 +126,7 @@ export const webDevelopmentData:ServiceData = {
         description:
           "Ongoing monitoring and optimization.",
         color: "yellow",
+        icon : FiTool
       },
     ],
   },

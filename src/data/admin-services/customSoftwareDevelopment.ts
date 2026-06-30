@@ -1,5 +1,8 @@
 import { ServiceData } from "@/types/admin-services";
 import { Blocks, FolderCode, UserKey } from "lucide-react";
+import { FaBuilding, FaCloudUploadAlt, FaPlug, FaRobot } from "react-icons/fa";
+import { IoPeople } from "react-icons/io5";
+import { RiLoader3Fill } from "react-icons/ri";
 
 export const customSoftwareDevelopmentData: ServiceData = {
   slug: "software-development",
@@ -96,6 +99,7 @@ export const customSoftwareDevelopmentData: ServiceData = {
           "Centralized inventory, HR, finance and supply-chain management platforms.",
 
         color: "blue",
+        icon : FaBuilding
       },
 
       {
@@ -105,6 +109,7 @@ export const customSoftwareDevelopmentData: ServiceData = {
           "Sales, customer relationship and workflow management systems tailored to your business.",
 
         color: "green",
+        icon : IoPeople
       },
 
       {
@@ -114,6 +119,7 @@ export const customSoftwareDevelopmentData: ServiceData = {
           "Cloud-native multi-tenant SaaS products built for scale and recurring revenue.",
 
         color: "cyan",
+        icon : FaCloudUploadAlt
       },
 
       {
@@ -123,6 +129,7 @@ export const customSoftwareDevelopmentData: ServiceData = {
           "Replace repetitive manual processes with intelligent automated business workflows.",
 
         color: "purple",
+        icon : FaPlug
       },
 
       {
@@ -132,6 +139,7 @@ export const customSoftwareDevelopmentData: ServiceData = {
           "Upgrade legacy applications with modern scalable architectures without data loss.",
 
         color: "orange",
+        icon : RiLoader3Fill
       },
 
       {
@@ -141,6 +149,7 @@ export const customSoftwareDevelopmentData: ServiceData = {
           "Integrate AI assistants, analytics and automation into existing enterprise software.",
 
         color: "yellow",
+        icon : FaRobot
       },
     ],
   },

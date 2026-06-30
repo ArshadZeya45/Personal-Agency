@@ -1,5 +1,7 @@
 import { ServiceData } from "@/types/admin-services";
 import { Gamepad2, GlobeLock, GraduationCap } from "lucide-react";
+import { FaChartPie, FaMedal, FaSchool, FaShoppingCart, FaVideo } from "react-icons/fa";
+import { HiOutlineOfficeBuilding } from "react-icons/hi";
 
 export const lmsDevelopmentData: ServiceData = {
   slug: "lms",
@@ -98,6 +100,7 @@ export const lmsDevelopmentData: ServiceData = {
           "Employee onboarding, compliance training, certifications and workforce upskilling platforms.",
 
         color: "blue",
+        icon : HiOutlineOfficeBuilding
       },
 
       {
@@ -107,6 +110,7 @@ export const lmsDevelopmentData: ServiceData = {
           "Virtual classrooms, assignments, grading systems, attendance and parent-teacher portals.",
 
         color: "green",
+        icon : FaSchool
       },
 
       {
@@ -116,6 +120,7 @@ export const lmsDevelopmentData: ServiceData = {
           "Build your own Udemy-style learning platform with subscriptions, coupons and secure payments.",
 
         color: "orange",
+        icon : FaShoppingCart
       },
 
       {
@@ -125,6 +130,7 @@ export const lmsDevelopmentData: ServiceData = {
           "Interactive live classes powered by WebRTC, Zoom integration and collaborative whiteboards.",
 
         color: "purple",
+        icon : FaVideo
       },
 
       {
@@ -134,6 +140,7 @@ export const lmsDevelopmentData: ServiceData = {
           "Generate verifiable certificates, badges and skill assessments after successful course completion.",
 
         color: "cyan",
+        icon : FaMedal
       },
 
       {
@@ -143,6 +150,7 @@ export const lmsDevelopmentData: ServiceData = {
           "Track learner progress, engagement, completion rates and performance through detailed dashboards.",
 
         color: "yellow",
+        icon : FaChartPie
       },
     ],
   },
